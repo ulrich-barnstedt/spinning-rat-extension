@@ -13,7 +13,7 @@ img.src = gif;
 img.style.maxWidth = "300px";
 img.style.maxHeight = "300px";
 
-let list = document.getElementsByTagName("div");
+let list = document.getElementsByTagName("*");
 for (let i = 0; i < 50; i++) {
     let item = Math.floor(Math.random() * list.length);
     let elem = list[item];
